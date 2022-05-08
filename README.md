@@ -24,14 +24,14 @@ The Kafka stream application takes the information from this original source top
 
 You can see the results using the comands
 
-````
+```
 $ docker-compose exec schema-registry bash
 
 $ kafka-avro-console-consumer \
  --bootstrap-server kafka:9092 \
  --topic trips-enriched \
- --from-beginning```
-````
+ --from-beginning
+```
 
 ## Topics
 
