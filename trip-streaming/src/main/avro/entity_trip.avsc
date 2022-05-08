@@ -1,0 +1,51 @@
+{
+    "namespace": "sandbox.stream.dev.model",
+    "name": "EntityTrip",
+    "type": "record",
+    "fields": [
+          {
+            "name": "trip_seconds",
+            "type": "int"
+          },
+          {
+            "name": "fare_by_seconds",
+            "type": "float"
+          },
+          {
+            "name": "trip_miles",
+            "type": "float"
+          },
+          {
+            "name": "fare_by_mile",
+            "type": "float"
+          },
+          {
+            "name": "fare",
+            "type": "float"
+          },
+          {
+            "name": "tips",
+            "type": "float"
+          },
+          {
+            "name": "tolls",
+            "type": "float"
+          },
+          {
+            "name": "extras",
+            "type": "float"
+          },
+          {
+            "name": "trip_total",
+            "type": "float"
+          },
+          {
+            "name": "payment_type",
+            "type": "string"
+          },
+          {
+            "name": "company",
+            "type": "string"
+          }
+        ]
+}
