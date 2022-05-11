@@ -5,7 +5,7 @@ cub kafka-ready -b kafka:9092 1 20
 # create the tweets topic
 kafka-topics \
   --bootstrap-server kafka:9092 \
-  --topic tweets \
+  --topic trips \
   --replication-factor 1 \
   --partitions 4 \
   --create
@@ -13,7 +13,7 @@ kafka-topics \
 # create the crypto-sentiment topic
 kafka-topics \
   --bootstrap-server kafka:9092 \
-  --topic crypto-sentiment \
+  --topic trips-enriched \
   --replication-factor 1 \
   --partitions 4 \
   --create

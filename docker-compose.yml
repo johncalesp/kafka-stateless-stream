@@ -41,7 +41,7 @@ services:
     depends_on:
       - kafka
     hostname: kafka-create-topics
-    command: ["bash", "./create-topics-v2.sh"]
+    command: ["bash", "./create-topics.sh"]
     working_dir: /scripts
     volumes:
     - ./scripts:/scripts
